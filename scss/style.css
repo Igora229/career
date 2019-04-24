@@ -2,4 +2,10 @@
   margin: 0;
   box-sizing: border-box; }
 
+.about h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #10242b; }
+
 /*# sourceMappingURL=style.css.map */
