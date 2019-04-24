@@ -1,5 +1,19 @@
 .about{
+    .preferences{
+        background-color: #ecf1f7;
+        height: 50vh;
+        h3{
+            text-align: center;
+        }
+    }
+    .response{
+        background-color: #fff;
+        height: 50vh;
+    }
     h3{
         @include about_h3;
+    }
+    i{
+        color: #f74242;
     }
 }
