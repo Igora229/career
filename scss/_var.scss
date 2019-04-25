@@ -4,3 +4,11 @@
     font-weight: 600;
     color: #10242b;
 }
+
+@mixin about_h6 {
+    font-size: 21px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.238;
+    text-align: left;
+}
