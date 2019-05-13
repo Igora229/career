@@ -87,8 +87,7 @@
     margin-bottom: 20px; }
 
 footer {
-  background: #0b0f12;
-  padding: 99px 0; }
+  background: #0b0f12; }
   footer .row {
     max-width: 1140px;
     margin: 0 auto;
@@ -97,7 +96,7 @@ footer {
     footer .row .col-sm-12 {
       padding-right: 15px;
       padding-left: 15px;
-      margin: 0 auto; }
+      margin: 99px auto 0 auto; }
       footer .row .col-sm-12 .Contact_Information_2 {
         display: flex; }
         footer .row .col-sm-12 .Contact_Information_2 .icon_location {
@@ -192,5 +191,16 @@ footer {
           justify-content: center;
           align-items: center;
           margin-right: 6px; }
+    footer .row .col-xl-12 {
+      margin: 86px auto 100px auto;
+      text-align: center; }
+      footer .row .col-xl-12 hr {
+        border: 1px solid #22282c;
+        max-width: 100%; }
+      footer .row .col-xl-12 p {
+        font-size: 15px;
+        font-family: "Myriad Pro";
+        color: #64676a;
+        line-height: 2; }
 
 /*# sourceMappingURL=style.css.map */

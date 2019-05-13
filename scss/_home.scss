@@ -107,7 +107,6 @@
 }
 footer {
     background: #0b0f12;
-    padding: 99px 0;
     .row {
         max-width: 1140px;
         margin: 0 auto;
@@ -116,8 +115,7 @@ footer {
         .col-sm-12 {
             padding-right: 15px;
             padding-left: 15px;
-            margin: 0 auto;
-            
+            margin: 99px auto 0 auto;
             .Contact_Information_2 {
                 display: flex;
                 .icon_location {
@@ -228,6 +226,20 @@ footer {
                         }
                     }
                 }
+            }
+        }
+        .col-xl-12 {
+            margin: 86px auto 100px auto;
+            text-align: center;
+            hr {
+                border: 1px solid #22282c;
+                max-width: 100%;
+            }
+            p {
+                font-size: 15px;
+                font-family: "Myriad Pro";
+                color: rgb(100, 103, 106);
+                line-height: 2;
             }
         }
     }
